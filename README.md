@@ -40,6 +40,7 @@ cd copyPaster
 
 ## Media
 
+![CopyPaster](./icons/CopyPaster.gif)
 ![copyPaster_1](./icons/copyPaster_1.png)
 ![copyPaster_2](./icons/copyPaster_2.png)
 ![copyPaster_3](./icons/copyPaster_3.png)
