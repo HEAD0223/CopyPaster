@@ -1,0 +1,37 @@
+{
+	"name": "__MSG_name__",
+	"version": "1.0.0",
+	"manifest_version": 3,
+	"default_locale": "en",
+	"description": "__MSG_description__",
+	"action": { "default_popup": "popup.html" },
+	"icons": {
+		"32": "./icons/icon-32.png",
+		"64": "./icons/icon-64.png",
+		"128": "./icons/icon-128.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://stackoverflow.com/*"],
+			"run_at": "document_idle",
+			"all_frames": false,
+			"js": ["./content.js"]
+		}
+	],
+	"permissions": ["storage"],
+	"host_permissions": ["https://stackoverflow.com/*"],
+	"background": {
+		"service_worker": "./background.js"
+	},
+	"web_accessible_resources": [
+		{ "resources": ["content.css", "execute.js"], "matches": ["https://stackoverflow.com/*"] }
+	],
+	"commands": {
+		"copy-all": {
+			"suggested_key": {
+				"default": "Alt+Shift+C"
+			},
+			"description": "Copy all text"
+		}
+	}
+}
