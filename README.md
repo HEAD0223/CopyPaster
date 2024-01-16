@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 [![Working on](https://img.shields.io/badge/Working_on-Chrome-informational?logo=google-chrome&logoColor=white)](chrome://extensions/)
 
-CopyPaster will give you button Copy on Code in https://stackoverflow.com/. So you can copy code fast and paste it whenever you want.....
+CopyPaster is a browser extension that provides a "Copy" button for code snippets on [Stack Overflow](https://stackoverflow.com/), allowing you to quickly copy code and paste it wherever you need.
 
 ## Table of Contents
 
@@ -17,32 +17,32 @@ CopyPaster will give you button Copy on Code in https://stackoverflow.com/. So y
 
 ## Folder Structure
 
--  **\_locales:** lng files
--  **js:** js files
--  **html:** html files
--  **icons:** icons images
--  **manifest.json:** manifest extension
+-  **\_locales:** Containing language files used for internationalization and localization.
+-  **icons:** Storing icon images utilized by the extension.
+-  **js:** JavaScript files responsible for the core functionality of the extension.
+-  **html:** HTML files corresponding to various components of the extension.
+-  **manifest.json:** Encompassing metadata such as the extension's name, version, permissions, and other details.
 
 ## Usage
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/HEAD0223/CopyPaster.git
-cd CopyPaster
+git clone https://github.com/HEAD0223/copyPaster.git
+cd copyPaster
 ```
 
-2. Go to chrome://extensions/
+2. Go to [chrome://extensions/](chrome://extensions/)
 
-Click on ADD EXT
+   -  Click on "Load unpacked" and select the cloned directory.
 
-AND ETC.
+3. Enjoy the "Copy" button on Stack Overflow!
 
 ## Media
 
-![uCard-3DTilt](./img/uCard-3DTilt.gif)
-![tilt-uCard_1](./img/tilt-uCard_1.png)
-![tilt-uCard_2](./img/tilt-uCard_2.png)
+![copyPaster_1](./icons/copyPaster_1.png)
+![copyPaster_2](./icons/copyPaster_2.png)
+![copyPaster_3](./icons/copyPaster_3.png)
 
 ## Contributing
 

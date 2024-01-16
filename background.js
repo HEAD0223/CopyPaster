@@ -47,6 +47,6 @@ chrome.runtime.onInstalled.addListener(({ reason }) => {
 		chrome.tabs.create({
 			url: chrome.runtime.getURL('welcome.html'),
 		});
-		chrome.runtime.setUninstallURL('http://localhost:4450/leave');
+		chrome.runtime.setUninstallURL('https://head0223.github.io/copyPaster/leave.html');
 	}
 });
